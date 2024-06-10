@@ -8,6 +8,15 @@ const serviceRoute = require("./router/service-router");
 const adminRoute = require("./router/admin-router")
 const connectDb = require("./utils/db");        
 const errorMiddleware = require('./middlewares/error-middleware'); 
+
+
+
+app.use(cors({
+    origin: ["https://deploy.mern.localvercel.app"],
+    methods: ["POST", "GET"],
+    credentials:true
+  }));
+  
 app.use(express.json());   // when you used it, it means you're accepting JSON payloads
 
 const coreOptions = {

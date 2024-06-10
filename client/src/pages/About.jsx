@@ -14,7 +14,7 @@ const About = () => {
               <p> Welocme,{user ? `${user.username} to our website` : ` to our website `} </p>
               <h1>Why Choose Us? </h1>
               <p>
-                Expertise: Our team consists of experienced IT professionals who
+                Expertise: Our team consists of experienced company professionals who
                 are passionate about staying up-to-date with the latest industry
                 trends.
               </p>
@@ -25,7 +25,7 @@ const About = () => {
               </p>
               <p>
                 Customer-Centric Approach: We prioritize your satisfaction and
-                provide top-notch support to address your IT concerns.
+                provide top-notch support to address your client concerns.
               </p>
               <p>
                 Affordability: We offer competitive pricing without compromising
@@ -33,7 +33,7 @@ const About = () => {
               </p>
               <p>
                 Reliability: Count on us to be there when you need us. We are
-                committed to ensuring your IT environment is reliable and
+                committed to ensuring your compnay environment is reliable and
                 available 24/7.
               </p>
               <div className="btn btn-group">
@@ -45,8 +45,8 @@ const About = () => {
             </div>
             <div className="hero-image">
               <img
-                src="/images/about.png"
-                alt="coding buddies "
+                src="/images/car.png"
+                alt="car buddies "
                 width="400"
                 height="500"
               />

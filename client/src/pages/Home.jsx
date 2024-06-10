@@ -8,12 +8,12 @@ const Home = () => {
       <section className="section-hero">
         <div className="container grid grid-two-cols">
           <div className="hero-content">
-            <p>We are the World Best IT Company</p>
-            <h1>Welcome to Just company</h1>
+          <p>We are the World Best carDeal Company</p>
+            <h1>Welcome to carDeal company</h1>
             <p>
               Are you ready to take your business to the next level with
-              cutting-edge IT solutions? Look no further! At Thapa Technical,
-              we specialize in providing innovative IT services and solutions
+              cutting-edge carDeal solutions? Look no further! At company,
+              we specialize in providing innovative car services and solutions
               tailored to meet your unique needs.
             </p>
             <div className="btn btn-group">
@@ -29,8 +29,8 @@ const Home = () => {
           {/* hero images  */}
           <div className="hero-image">
             <img
-              src="/images/home.png"
-              alt="coding together"
+              src="/images/car5.png"
+              alt="car together"
               width="400"
               height="500"
             />
@@ -48,8 +48,8 @@ const Home = () => {
         {/* hero images  */}
         <div className="hero-image">
           <img
-            src="/images/design.png"
-            alt="coding together"
+            src="/images/car1.png"
+            alt="car together"
             width="400"
             height="500"
           />
@@ -60,8 +60,8 @@ const Home = () => {
           <h1>Get Started Today</h1>
           <p>
             Ready to take the first step towards a more efficient and secure
-            IT infrastructure? Contact us today for a free consultation and
-            lets discuss how Thapa Technical can help your business thrive in
+            car infrastructure? Contact us today for a free consultation and
+            lets discuss how  can help your business thrive in
             the digital age.
           </p>
           <div className="btn btn-group">

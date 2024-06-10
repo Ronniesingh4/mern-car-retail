@@ -1,6 +1,6 @@
 const Service = require("../models/service-model");
 
-const services = async (req, res) => {
+const services = async (req, res) => { 
   try {
     const response = await Service.find(); 
     if (!response) {
